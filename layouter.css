@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     font-size: 16px;
     font-family: "Nunito", sans-serif;
-  
+    
 }
 
 h1, h2, h3 {
@@ -63,7 +63,7 @@ h1, h2, h3 {
 
  header {
     min-height: 800px;
-    background-image: url("foto-porto/IMG_0206(2).png");
+    background-image: url("foto-porto/IMG_0206(2).webp");
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
@@ -112,53 +112,141 @@ h1, h2, h3 {
     font-weight: bold;
      margin-top: 20px; 
 }
-#sosmed{
-    background-color: #264653;
+a{
+    text-decoration: none;
+    color:#f7f8fa  ;
+    text-shadow: none;
 }
-  .tombol{  
-         display: inline-flex;
+.tombol{
+    background-color: #264653;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    font-family: 'anta', sans-serif;
+    font-weight: bold;
+    font-size: 30   ;
+
+}
+.sosmed{
+    background-color: #6892a3;
+    padding: 20px;
+    display: flex;
+    margin-top: -16;
+    justify-content: center;
+}
+.sosmed-kanan{
+    background-color:#264653;
+    display: flex;
+    padding: 20px;
+    border-radius:40px;
+}
+.sosmed-kiri{
+    padding: 40;
+}
+.sosmed p{
+    font-style:  'anta  ', sans-serif;
+    font-weight: bolder;
+    color: #fffbf9;
+    padding: 0;
+    font-size: 30;
+}
+.sosmed-item{
+    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 40;
+    
+    
+}
+.sosmed-item img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.sosmed-item a{
+    color: #ebf1f4;
     text-decoration: none;
-    color: #fbfbfc;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 24px;
-    left: 20px;
-    top: 10px; 
-    margin-top: -75;
-  margin-left: 295; 
-    }
-    .instagram{
-        position: absolute;
-        margin-top: -28 ;
-        margin-left: 285;
-        width: 24px;
-        height: auto;
-    }   
-   .tombolin{  
-         display: inline-flex;
+    font-size: 18px;
+}
+.porto{
+    background-image: url("foto-porto/IMG_0653.JPG");
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    opacity: 1  ;
+     position: relative;
+    isolation: isolate;
+}
+.section-opacity {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(27, 54, 64, 0.65);
+    z-index: -1;
+}
+.datadiri{
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+.photo{
+    width: 20%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.photo img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.info h1{
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold   ;
+    color: #fffbf9;
+    
+    
+}
+.info p{
+    font-family: "Nunito", sans-serif;
+    font-weight: bold   ;
+    color: #fffbf9;
+}
+.org-content{
+    background-color:#6892a3;
+    color: #6892a3;
+    border-radius: 30px;
+    padding: 10;
+}
+.organisasi h1{
+    
+    text-align: center;
+    color: #ebf1f4;
+    font-family: "Nunito", sans-serif;
+}.organisasi p{
     align-items: center;
+    color: #ebf1f4;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold   ;
     justify-content: center;
+    
+}
+.organisasi{
+    display: flex;
+    background-color: #264653;
+    padding: 20;
 
-    text-decoration: none;
-    color: #fbfbfc;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 24px;
-    left: 0px;
-    top: 10px; 
-    margin-top: -75;
-    margin-left: 480; 
-    }
-    .linkedin{
-         position: absolute;
-        margin-top: -28 ;
-        margin-left:470;
-        width: 24px;
-        height: auto;
-    }
-   
+}
+.organisasi img{
+    background-color: #264653;
+    width: 250;
+    
+    
+}
