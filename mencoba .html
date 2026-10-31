@@ -1,0 +1,32 @@
+<html>
+<body>
+<h1>
+aku sayang zulfa mwehehe
+</h1>
+<p>
+aku kangen zulfa
+</p>
+
+<button onclick="fungsi1()">
+    urutkan secara alphabet 
+</button>
+<button onclick="fungsi2()">
+    urutkan secara numerik
+</button>
+<p id = "x">
+    
+</p>
+<script>  
+const angka = [100,223,123,463,321,623,234,5323,2134];
+function fungsi1(){
+    angka.sort();
+    document.getElementById("x").innerHTML = angka;
+}
+function fungsi2(){
+    angka.sort(function(a,b){return a-b})
+    document.getElementById('x').innerHTML = angka[0];
+}
+
+</script>
+</body> 
+</html>
