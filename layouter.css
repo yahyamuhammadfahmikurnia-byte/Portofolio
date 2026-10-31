@@ -63,7 +63,7 @@ h1, h2, h3 {
 
  header {
     min-height: 800px;
-    background-image: url("foto-porto/IMG_0206(2).webp");
+    background-image: url("foto-porto/IMG_0653.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
@@ -241,7 +241,7 @@ a{
 .organisasi{
     display: flex;
     background-color: #264653;
-    padding: 20;
+    padding: 50;
 
 }
 .organisasi img{
