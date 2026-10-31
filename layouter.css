@@ -63,7 +63,7 @@ h1, h2, h3 {
 
  header {
     min-height: 800px;
-    background-image: url("foto-porto/IMG_0653.jpg");
+    background-image: url("foto-porto/IMG_0206(2).webp");
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
@@ -171,7 +171,7 @@ a{
     font-size: 18px;
 }
 .porto{
-    background-image: url("foto-porto/IMG_0653.JPG");
+    background-image: url("foto-porto/IMG_0653.jpg");
     width: 100%;
     background-size: cover;
     display: flex;
@@ -249,4 +249,25 @@ a{
     width: 250;
     
     
+}
+.fotografi{
+    justify-content: center;
+    background-color: #264653;
+    padding: 20;
+}
+.fotografi h1{
+    font-family: "Nunito", sans-serif;
+    font-size:40;
+    color: #ebf1f4;
+}
+.album {
+    background-color: #6892a3;
+    border-radius: 10px;
+    padding: -50;
+    display:flex;
+    justify-content: center;
+}
+.album img{
+    padding: 45;
+    height: 250;
 }
