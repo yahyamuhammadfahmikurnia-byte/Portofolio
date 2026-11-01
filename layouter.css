@@ -290,33 +290,7 @@
         color: #ebf1f4;
     }
 
-    .album {
-        background-color: #6892a3;
-        border-radius: 10px;
-        padding: -50;
-        display: flex;
-        justify-content: flex-start;
-        gap: 15px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-    }
-
-    .album::-webkit-scrollbar {
-        display: none;
-    }
-
-    .album img {
-        flex: 0 0 auto;
-        height: 250px;
-        width: auto;
-        max-width: none;
-        padding: 0;
-        object-fit: cover;
-        border-radius: 12px;
-        scroll-snap-align: center;
-    }
+   
 
     .skill {
         display: flex;
@@ -353,7 +327,17 @@
         gap: 20px;
         flex-wrap: wrap;
     }
-
+    .album {
+    background-color: #6892a3;
+    border-radius: 20px;
+    padding: -50;
+    display:flex;
+    justify-content: center;
+}
+.album img{
+    padding: 45;
+    height: 380;
+}
     .logo-list img {
         width: 80px;
         height: 80px;
@@ -556,6 +540,33 @@
 
     .sosmed-item a {
         font-size: 14px;
+    }
+     .album {
+        background-color: #6892a3;
+        border-radius: 10px;
+        padding: -50;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }   
+
+    .album::-webkit-scrollbar {
+        display: none;
+    }
+
+    .album img {
+        flex: 0 0 auto;
+        height: 250px;
+        width: auto;
+        max-width: none;
+        padding: 0;
+        object-fit: cover;
+        border-radius: 12px;
+        scroll-snap-align: center;
     }
 
         }
