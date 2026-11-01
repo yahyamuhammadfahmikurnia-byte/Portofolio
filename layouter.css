@@ -1,31 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
-html, body {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
-h1, h2, h3 {
-    font-family: "Fredoka", sans-serif;
-} 
- p {
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: "Nunito", sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: "Fredoka", sans-serif;
+    }
+
+    p {
         color: #e1e2e7;
     }
-.wrapper    {
+
+    .wrapper {
         width: 1024px;
         height: 64px;
-        margin: auto; 
+        margin: auto;
     }
 
-.logo > img{
+    .logo>img {
         height: 45px;
     }
-    nav .wrapper > div:first-child {
-    color: white;
-    font-weight: bold;
-}   
+
+    nav .wrapper>div:first-child {
+        color: white;
+        font-weight: bold;
+    }
 
     nav {
         background-color: #1b3640;
@@ -33,283 +40,522 @@ h1, h2, h3 {
         top: 0;
         z-index: 100;
     }
-    nav > .wrapper  {
+
+    nav>.wrapper {
         display: flex;
-        justify-content:    space-between;
+        justify-content: space-between;
         font-size: 17px;
         align-items: center;
 
     }
-.menu{
+
+    .menu {
         width: 50%;
     }
 
-.menu >ul {
+    .menu>ul {
         display: flex;
         list-style: none;
         margin: 0px;
         padding: 0px;
-        justify-content:space-around ;
+        justify-content: space-around;
         height: 100%;
     }
-.menu > ul > li > a{
-        text-decoration: none   ;
+
+    .menu>ul>li>a {
+        text-decoration: none;
         color: #f7f8fa;
         font-weight: bold;
     }
 
- header {
-    min-height: 800px;
-    background-image: url("foto-porto/IMG_0206(2).webp");
-    background-size:cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
+    header {
+        min-height: 800px;
+        background-image: url("foto-porto/IMG_0206(2).webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
 
-.header-opacity{
-     background-color: #100e0e;
-     width: 100%;
-     height: 100%;
-     opacity: 0.5;
-     position: absolute;
-     top: 0;
+    .header-opacity {
+        background-color: #100e0e;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
         left: 0;
 
-}
-.header-tulisan{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-}.header-tulisan h4{
-    color: hsl(0, 0%, 96%);
-    font-size: 2rem;
-    font-weight: bold;
-     font-size: 30px;
-     margin: 0; 
-}
-.header-tulisan p4{
-    color: hsl(0, 0%, 96%);
-    font-size: 2rem;
-    font-weight: bold;
-     font-size: 50px;
-     margin: 0; 
-     justify-content: center;
-     align-items: center;   
-     white-space: nowrap;
-     font-family: 'anta', sans-serif;
-}.header-tulisan p{
-    color: hsl(0, 0%, 96%);
-    font-size: 1rem;
-    font-weight: bold;
-     margin-top: 20px; 
-}
-a{
-    text-decoration: none;
-    color:#f7f8fa  ;
-    text-shadow: none;
-}
-.tombol{
-    background-color: #264653;
-    padding: 10px 20px 10px 20px ;
-    border-radius: 5px;
-    font-family: 'anta', sans-serif;
-    font-weight: bold;
-    font-size: 30   ;
+    }
 
-}
-.sosmed{
-    background-image: url("foto-porto/IMG_0175.JPG");
-    background-size:cover;
-    background-color: #6892a3;
-    padding: 20px;
-    display: flex;
-    margin-top: -16;
-    justify-content: center;
-}
-.sosmed-kanan{
-    background-color:#264653;
-    display: flex;
-    padding: 20px;
-    border-radius:40px;
-}
-.sosmed-kiri{
-    padding: 40;
-}
-.sosmed p{
-    font-style:  'anta  ', sans-serif;
-    font-weight: bolder;
-    color: #fffbf9;
-    padding: 0;
-    font-size: 30;
-}
-.sosmed-item{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 40;
-}
-.sosmed-item img{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-.sosmed-item a{
-    color: #ebf1f4;
-    text-decoration: none;
-    font-size: 18px;
-}
-.porto{
-    background-image: url("foto-porto/IMG_0653.jpg");
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    background-repeat: no-repeat;
-    opacity: 1  ;
-     position: relative;
-    isolation: isolate;
-}
-.section-opacity {
-    position: absolute;
-    inset: 0;
-    background-color: rgba(27, 54, 64, 0.65);
-    z-index: -1;
-}
-.datadiri{
-    width: 80%;
-    padding: 20px;
-    box-sizing: border-box;
+    .header-tulisan {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-tulisan h4 {
+        color: hsl(0, 0%, 96%);
+        font-size: 2rem;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .header-tulisan p4 {
+        color: hsl(0, 0%, 96%);
+        font-size: 2rem;
+        font-weight: bold;
+        font-size: 50px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        font-family: 'anta', sans-serif;
+    }
+
+    .header-tulisan p {
+        color: hsl(0, 0%, 96%);
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #f7f8fa;
+        text-shadow: none;
+    }
+
+    .tombol {
+        background-color: #264653;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        font-family: 'anta', sans-serif;
+        font-weight: bold;
+        font-size: 30;
+
+    }
+
+    .sosmed {
+        background-image: url("foto-porto/IMG_0175.JPG");
+        background-size: cover;
+        background-color: #6892a3;
+        padding: 20px;
+        display: flex;
+        margin-top: -16;
+        justify-content: center;
+    }
+
+    .sosmed-kanan {
+        background-color: #264653;
+        display: flex;
+        padding: 20px;
+        border-radius: 40px;
+    }
+
+    .sosmed-kiri {
+        padding: 40;
+    }
+
+    .sosmed p {
+        font-style: 'anta  ', sans-serif;
+        font-weight: bolder;
+        color: #fffbf9;
+        padding: 0;
+        font-size: 30;
+    }
+
+    .sosmed-item {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 40;
+    }
+
+    .sosmed-item img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .sosmed-item a {
+        color: #ebf1f4;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .porto {
+        background-image: url("foto-porto/IMG_0653.jpg");
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        background-repeat: no-repeat;
+        opacity: 1;
+        position: relative;
+        isolation: isolate;
+    }
+
+    .section-opacity {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(27, 54, 64, 0.65);
+        z-index: -1;
+    }
+
+    .datadiri {
+        width: 80%;
+        padding: 20px;
+        box-sizing: border-box;
 
 
 
-}
-.photo{
-    width: 20%;
-    display: flex;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.photo img{
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.info h1{
-    font-family: "Fredoka", sans-serif;
-    font-weight: bold   ;
-    color: #fffbf9;
-}
-.info p{
-    font-family: "Nunito", sans-serif;
-    font-weight: bold   ;
-    color: #fffbf9;
-}
-.org-content{
-    background-color:#6892a3;
-    color: #6892a3;
-    border-radius: 30px;
-    padding: 10;
-}
-.organisasi h1{
-    text-align: center;
-    color: #ebf1f4;
-    font-family: "Nunito", sans-serif;
-}.organisasi p{
-    align-items: center;
-    color: #ebf1f4;
-    font-family: "Nunito", sans-serif;
-    font-weight: bold   ;
-    justify-content: center;
-}
-.organisasi{
-    display: flex;
-    background-color: #264653;
-    padding: 50;
+    }
 
-}
-.organisasi img{
-    background-color: #264653;
-    width: 250;
-}
-.fotografi{
-    justify-content: center;
-    background-color: #264653;
-    padding: 20;
-}
-.fotografi h1{
-    font-family: "Nunito", sans-serif;
-    font-size:40;
-    color: #ebf1f4;
-}
-.album {
-    background-color: #6892a3;
-    border-radius: 10px;
-    padding: -50;
-    display:flex;
-    justify-content: center;
-}
-.album img{
-    padding: 45;
-    height: 250;
-}
-.skill {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 24px;
-    padding: 24px;
-    background-color:#6892a3;
-    color: #f5f7f7;
-    font-family: "Nunito", sans-serif;
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-}
+    .photo {
+        width: 20%;
+        display: flex;
+        padding: 20px;
+        box-sizing: border-box;
+    }
 
-.skill > div {
-    flex: 1;
-    padding: 24px;
-    border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.1);
-}
+    .photo img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
 
-.skill img {
-    display: block;
-    width: 60px;
-    height: auto;
-    margin: 16px auto 0;
-}
-.logo-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
+    .info h1 {
+        font-family: "Fredoka", sans-serif;
+        font-weight: bold;
+        color: #fffbf9;
+    }
 
-.logo-list img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-}
-.logoo-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.logoo-list img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-}
->>>>>>> b5ba7a6 (UP112)
+    .info p {
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        color: #fffbf9;
+    }
+
+    .org-content {
+        background-color: #6892a3;
+        color: #6892a3;
+        border-radius: 30px;
+        padding: 10;
+    }
+
+    .organisasi h1 {
+        text-align: center;
+        color: #ebf1f4;
+        font-family: "Nunito", sans-serif;
+    }
+
+    .organisasi p {
+        align-items: center;
+        color: #ebf1f4;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .organisasi {
+        display: flex;
+        background-color: #264653;
+        padding: 50;
+
+    }
+
+    .organisasi img {
+        background-color: #264653;
+        width: 900;
+    }
+
+    .fotografi {
+        justify-content: center;
+        background-color: #264653;
+        padding: 20;
+    }
+
+    .fotografi h1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 40;
+        color: #ebf1f4;
+    }
+
+    .album {
+        background-color: #6892a3;
+        border-radius: 10px;
+        padding: -50;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .album::-webkit-scrollbar {
+        display: none;
+    }
+
+    .album img {
+        flex: 0 0 auto;
+        height: 250px;
+        width: auto;
+        max-width: none;
+        padding: 0;
+        object-fit: cover;
+        border-radius: 12px;
+        scroll-snap-align: center;
+    }
+
+    .skill {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 4px;
+        padding: 44px;
+        background-color: #6892a3;
+        color: #f5f7f7;
+        font-family: "Nunito", sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .skill>div {
+        flex: 1;
+        padding: 24px;
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .skill img {
+        display: block;
+        width: 0px;
+        height: auto;
+        margin: 16px auto 0;
+    }
+
+    .logo-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .logo-list img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .logoo-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .logoo-list img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .wrapper {
+            width: 95%;
+            height: auto;
+        }
+
+        nav .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 0;
+        }
+
+        .logo img {
+            max-width: 120px;
+            height: auto;
+        }
+
+        .menu {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .main-content,
+        .sidebar {
+            width: 100%;
+        }
+
+        .skill {
+            font-size: 24px;
+            flex-wrap: wrap;
+        }
+
+        .bahasa {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .bahasa img {
+            width: 60px;
+            padding: 5px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .sosmed-item .instagram img {
+        width: 80px;
+        height: 30px;
+        padding: 1;
+        margin-left: -5;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .wrapper {
+            width: 95%;
+            height: auto;
+        }
+
+        .menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .menu ul li {
+            text-align: center;
+        }
+
+        .menu {
+            width: 100%;
+        }
+
+        .header-tulisan h4 {
+            font-size: 20px;
+            justify-content: center;
+        }
+
+        .header-tulisan p4 {
+            font-size: 20px;
+        }
+
+        .header-tulisan a {
+            font-size: 18px;
+        }
+
+        @media screen and (max-width: 480px) {
+            .photo {
+                width: 40%;
+                padding: 5px;
+                margin-top: 20px;
+            }
+
+            .photo img {
+                width: 150px;
+                height: 150px;
+                max-width: none;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            .datadiri {
+                width: 60%;
+            }
+
+            .organisasi {
+
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .organisasi img {
+                margin-left: 100px;
+                width: 40%;
+                align-items: center;
+                height: auto;
+            }
+
+
+    .sosmed {
+        flex-direction: column;
+        padding: 16px;
+        margin-top: 0;
+    }
+
+    .sosmed-kanan {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 16px;
+        border-radius: 20px;
+    }
+
+    .sosmed-item {
+        width: auto;
+        min-width: 0;
+        margin-bottom: 0;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .sosmed-item img,
+    .sosmed-item .instagram img {
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    .sosmed-item a {
+        font-size: 14px;
+    }
+
+        }
