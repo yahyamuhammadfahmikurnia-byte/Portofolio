@@ -74,6 +74,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
+        height: 100%;
     }
 
     .header-opacity {
@@ -88,8 +89,9 @@
     }
 
     .header-tulisan {
+        
         position: absolute;
-        top: 25%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         align-items: center;
@@ -152,12 +154,14 @@
     }
 
     .sosmed-kanan {
-        background-color: #264653;
-        display: flex;
-        padding: 20px;
-        border-radius: 40px;
-    }
-
+        background-color: #69a3bb;
+  display: flex;
+  padding: 20px;
+  border-radius: 40px;
+  height: 120;
+  margin-top: 38;
+}
+    
     .sosmed-kiri {
         padding: 40;
     }
@@ -438,9 +442,10 @@
         padding: 1;
         margin-left: -5;
     }
+        
 
-    @media only screen and (max-width: 480px) {
-        .wrapper {
+        @media screen and (max-width: 480px) {
+            .wrapper {
             width: 95%;
             height: auto;
         }
@@ -459,21 +464,41 @@
         .menu {
             width: 100%;
         }
-
+     header {
+            height: 700px;
+            min-height: 0;
+        }
+        .header-tulisan {
+            top: 50%;
+            width: calc(100% - 24px);
+        }
         .header-tulisan h4 {
             font-size: 20px;
             justify-content: center;
         }
 
         .header-tulisan p4 {
-            font-size: 20px;
+            font-size: 24px;
+            text-align: center;
+            white-space: normal;
+        }
+     
+        .lightroom{
+            margin-top: -20px;
+            margin-bottom: 20px;
+            width: 90px;
+            height: 90px;
+            padding: 20px;
+            
+        }
+        .header-tulisan p {
+            text-align: center;
+            font-size: 12px;
         }
 
         .header-tulisan a {
             font-size: 18px;
         }
-
-        @media screen and (max-width: 480px) {
             .photo {
                 width: 40%;
                 padding: 5px;
@@ -568,5 +593,12 @@
         border-radius: 12px;
         scroll-snap-align: center;
     }
-
-        }
+    .sosmed-kiri p{
+        text-align: center;
+        font-size: 24px;
+    }
+    .sosmed-item img{
+        border-radius: 30%;
+    }
+                }
+                    
