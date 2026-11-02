@@ -183,7 +183,7 @@
         width: 100%;
         padding: 40;
     }
-
+   
     .sosmed-item img {
         width: 30px;
         height: 30px;
@@ -306,25 +306,49 @@
 
    
 
+    #sosmed {
+        background: linear-gradient(180deg, rgba(18, 54, 64, 0.95) 0%, rgba(104, 146, 163, 0.95) 100%);
+        padding: 28px 0 36px;
+    }
+
     .skill {
         display: flex;
         justify-content: center;
         align-items: stretch;
-        gap: 4px;
-        padding: 44px;
-        background-color: #6892a3;
+        gap: 22px;
+        padding: 44px 42px 36px;
+        background-color: #7ea3b2;
         color: #f5f7f7;
         font-family: "Nunito", sans-serif;
-        font-size: 30px;
+        font-size: clamp(2rem, 2vw, 3.2rem);
         font-weight: bolder;
         text-align: center;
+        width: min(1280px, calc(100% - 56px));
+        margin: 0 auto;
+        box-sizing: border-box;
+        border-radius: 20px;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
     }
 
     .skill>div {
         flex: 1;
-        padding: 24px;
-        border-radius: 16px;
-        background-color: rgba(255, 255, 255, 0.1);
+        padding: 28px 22px 26px;
+        border-radius: 18px;
+        background-color: rgba(255, 255, 255, 0.08);
+        min-height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bahasa,
+    .aplikasi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+        width: 100%;
     }
 
     .skill img {
@@ -338,8 +362,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        flex-wrap: wrap;
+        gap: 36px;
+        flex-wrap: nowrap;
+        width: 100%;
     }
     .album img {
         flex: 0 0 auto;
@@ -360,14 +385,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        flex-wrap: wrap;
+        gap: 42px;
+        flex-wrap: nowrap;
+        width: 100%;
     }
 
     .logoo-list img {
-        width: 80px;
-        height: 80px;
+        width: 118px;
+        height: 118px;
         object-fit: contain;
+    }
+
+    .lightroom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 118px;
+        height: 118px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .lightroom img {
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+        display: block;
     }
 
     * {
@@ -419,15 +462,28 @@
         }
 
         .skill {
-            font-size: 24px;
+            font-size: clamp(1.6rem, 5vw, 2.4rem);
             flex-wrap: wrap;
+            width: min(100%, calc(100% - 24px));
+            padding: 24px 18px;
+            gap: 16px;
         }
 
-        .bahasa {
-            display: flex;
-            justify-content: center;
+        .skill>div {
+            min-height: unset;
+            padding: 18px 14px;
+        }
+
+        .bahasa,
+        .aplikasi {
+            gap: 18px;
+        }
+
+        .bahasa,
+        .aplikasi,
+        .logo-list,
+        .logoo-list {
             flex-wrap: wrap;
-            gap: 10px;
         }
 
         .bahasa img {
