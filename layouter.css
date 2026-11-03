@@ -89,7 +89,7 @@
     }
 
     .header-tulisan {
-        
+
         position: absolute;
         top: 45%;
         left: 50%;
@@ -142,11 +142,13 @@
         font-size: 30;
 
     }
-    .project{
+
+    .project {
         margin-top: 70px;
         padding: 0px;
         height: 20%;
     }
+
     .sosmed {
         background-image: url("foto-porto/IMG_0175.JPG");
         background-size: cover;
@@ -160,13 +162,13 @@
 
     .sosmed-kanan {
         background-color: #69a3bb;
-  display: flex;
-  padding: 20px;
-  border-radius: 40px;
-  height: 120;
-  margin-top: 38;
-}
-    
+        display: flex;
+        padding: 20px;
+        border-radius: 40px;
+        height: 120;
+        margin-top: 38;
+    }
+
     .sosmed-kiri {
         padding: 40;
     }
@@ -188,7 +190,7 @@
         width: 100%;
         padding: 40;
     }
-   
+
     .sosmed-item img {
         width: 30px;
         height: 30px;
@@ -277,7 +279,7 @@
     }
 
     .organisasi {
-        
+
         display: flex;
         background-color: #264653;
         padding: 50;
@@ -287,7 +289,7 @@
     .organisasi img {
         background-color: #264653;
         width: 900;
-        
+
     }
 
     .fotografi {
@@ -302,7 +304,7 @@
     }
 
     .album {
-    display: flex;
+        display: flex;
         gap: 12px;
         width: 100%;
         overflow-x: auto;
@@ -312,7 +314,7 @@
     }
 
 
-   
+
 
     #sosmed {
         background: linear-gradient(180deg, rgba(18, 54, 64, 0.95) 0%, rgba(104, 146, 163, 0.95) 100%);
@@ -374,6 +376,7 @@
         flex-wrap: nowrap;
         width: 100%;
     }
+
     .album img {
         flex: 0 0 auto;
         width: auto;
@@ -383,6 +386,7 @@
         border-radius: 10px;
         scroll-snap-align: center;
     }
+
     .logo-list img {
         width: 80px;
         height: 80px;
@@ -422,7 +426,7 @@
         display: block;
     }
 
-    *{
+    * {
         box-sizing: border-box;
     }
 
@@ -512,13 +516,13 @@
             margin-top: 0;
         }
 
-       
+
         .logoo-list>img,
         .lightroom {
             flex: 0 0 80px;
         }
 
-      
+
         .aplikasi>h {
             margin: 0;
         }
@@ -535,7 +539,8 @@
         p {
             font-size: 14px;
         }
-        .aplikasi > h {
+
+        .aplikasi>h {
             transform: none;
             height: auto;
             margin: 0;
@@ -551,7 +556,7 @@
             margin-top: 0;
         }
 
-        .logoo-list > img,
+        .logoo-list>img,
         .lightroom {
             flex: 0 0 80px;
             width: 80px;
@@ -567,11 +572,11 @@
             object-fit: contain;
         }
 
-          .logoo-list .lightroom img {
-          width: 65%;
-          height: 100%;
-          margin: 0;
-        object-fit: contain;
+        .logoo-list .lightroom img {
+            width: 65%;
+            height: 100%;
+            margin: 0;
+            object-fit: contain;
         }
     }
 
@@ -581,14 +586,15 @@
         padding: 1;
         margin-left: -5;
     }
-        .aplikasi > h{
-                transform: translateY(25px);
 
-            height: 50px;
-        }
+    .aplikasi>h {
+        transform: translateY(25px);
 
-        @media screen and (max-width: 480px) {
-            .wrapper {
+        height: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .wrapper {
             width: 95%;
             height: auto;
         }
@@ -607,14 +613,17 @@
         .menu {
             width: 100%;
         }
-     header {
+
+        header {
             height: 700px;
             min-height: 0;
         }
+
         .header-tulisan {
             top: 50%;
             width: calc(100% - 24px);
         }
+
         .header-tulisan h4 {
             font-size: 20px;
             justify-content: center;
@@ -625,15 +634,16 @@
             text-align: center;
             white-space: normal;
         }
-     
-        .lightroom{
+
+        .lightroom {
             margin-top: -20px;
             margin-bottom: 20px;
             width: 90px;
             height: 90px;
             padding: 20px;
-            
+
         }
+
         .header-tulisan p {
             text-align: center;
             font-size: 12px;
@@ -642,82 +652,94 @@
         .header-tulisan a {
             font-size: 18px;
         }
-            .photo {
-                width: 40%;
-                padding: 5px;
-                margin-top: 20px;
-            }
 
-            .photo img {
-                width: 150px;
-                height: 150px;
-                max-width: none;
-                object-fit: cover;
-                border-radius: 50%;
-            }
+        .photo {
+            width: 40%;
+            padding: 5px;
+            margin-top: 20px;
+        }
 
-            .datadiri {
-                width: 60%;
-            }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            max-width: none;
+            object-fit: cover;
+            border-radius: 50%;
+        }
 
-            .organisasi {
+        .datadiri {
+            width: 60%;
+        }
 
-                flex-direction: column;
-                align-items: center;
-                padding: 20px;
-            }
+        .organisasi {
 
-            .organisasi img {
-                margin-left: 100px;
-                width: 40%;
-                align-items: center;
-                height: auto;
-            }
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .organisasi img {
+            margin-left: 100px;
+            width: 40%;
+            align-items: center;
+            height: auto;
+        }
 
 
-    .sosmed {
-        flex-direction: column;
-        padding: 16px;
-        margin-top: 0;
+        .sosmed {
+            flex-direction: column;
+            padding: 16px;
+            margin-top: 0;
+        }
+
+        .sosmed-kanan {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            padding: 16px;
+            border-radius: 20px;
+        }
+
+        .sosmed-item {
+            width: auto;
+            min-width: 0;
+            margin-bottom: 0;
+            padding: 8px;
+            gap: 8px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .sosmed-item img,
+        .sosmed-item .instagram img {
+            width: 28px;
+            height: 28px;
+            padding: 0;
+            margin: 0;
+            object-fit: contain;
+        }
+        .sosmed-item .github img {
+            width: 28px;
+            height: 28px;
+            padding: 0;
+            margin: 0;
+            object-fit: contain;
+            
+        }
+        .sosmed-item a {
+            font-size: 14px;
+        }
+
+        .album img {
+            height: 220px;
+        }
+
+        .sosmed-kiri p {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .sosmed-item img {
+            border-radius: 30%;
+        }
     }
-
-    .sosmed-kanan {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-        padding: 16px;
-        border-radius: 20px;
-    }
-
-    .sosmed-item {
-        width: auto;
-        min-width: 0;
-        margin-bottom: 0;
-        padding: 8px;
-        gap: 8px;
-    }
-
-    .sosmed-item img,
-    .sosmed-item .instagram img {
-        width: 28px;
-        height: 28px;
-        padding: 0;
-        margin: 0;
-        object-fit: contain;
-    }
-
-    .sosmed-item a {
-        font-size: 14px;
-    }
-    .album img {
-        height: 220px;
-    }
-    .sosmed-kiri p{
-        text-align: center;
-        font-size: 24px;
-    }
-    .sosmed-item img{
-        border-radius: 30%;
-    }
-                }
-       
