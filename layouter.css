@@ -277,6 +277,7 @@
     }
 
     .organisasi {
+        
         display: flex;
         background-color: #264653;
         padding: 50;
@@ -286,6 +287,7 @@
     .organisasi img {
         background-color: #264653;
         width: 900;
+        
     }
 
     .fotografi {
